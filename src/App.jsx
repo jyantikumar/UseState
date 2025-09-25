@@ -12,23 +12,24 @@
         </div> 
 
           {activePage === 'Home' &&
-<div className='bg-[#c4afd0] w-screen p-1 text-center min-h-screen'>
+<div className='bg-[#c7bacf] w-screen p-1 text-center min-h-screen'>
   <h1 className='font-weight-300 mt-55 font-extrabold text-6xl'>HOME</h1>
 
                 <p>Welcome to the Home page!</p>
             </div>
         }
           {activePage === 'About' && 
-            <div className='bg-[#ffd076] w-screen p-1 text-center min-h-screen'>
+            <div className='bg-[#fae7c3] w-screen p-1 text-center min-h-screen'>
 <h1 className='font-weight-300 mt-55 font-extrabold text-6xl'>ABOUT US</h1>
 
                 <p>Learn more about us.</p> 
             </div>}
           {activePage === 'Contact' && 
-              <div className='bg-[#97e0cf]  w-screen p-1 text-center min-h-screen'>
+              <div className='bg-[gi#badbd4]  w-screen p-1 text-center min-h-screen'>
 <h1 className='font-weight-300 mt-55 font-extrabold text-6xl'>CONTACT US</h1>
                 <p>Have questions? We'd love to hear from you. Reach out anytime at</p> 
-                 <p className='font-bold text-blue-900'  >jakumar293@student.mcu.edu.ph</p> 
+                 <p className='font-bold text-blue-900'  >jakumar293@student.mcu.edu.ph</p>
+                 <button className='bg-'>Contact us</button> 
 
             </div>}
           
