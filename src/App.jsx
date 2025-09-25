@@ -25,7 +25,7 @@
                 <p>Learn more about us.</p> 
             </div>}
           {activePage === 'Contact' && 
-              <div className='bg-[gi#badbd4]  w-screen p-1 text-center min-h-screen'>
+              <div className='bg-[#badbd4]  w-screen p-1 text-center min-h-screen'>
 <h1 className='font-weight-300 mt-55 font-extrabold text-6xl'>CONTACT US</h1>
                 <p>Have questions? We'd love to hear from you. Reach out anytime at</p> 
                  <p className='font-bold text-blue-900'  >jakumar293@student.mcu.edu.ph</p>
